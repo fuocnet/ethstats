@@ -1,0 +1,11 @@
+version: "3"
+services:
+  fuocstats:
+    image: fuocspace/fuocstats
+    container_name: fuocstats
+    environment:
+      - PORT=3000
+      - WS_SECRET=secret
+    network_mode: "host"
+    restart: always
+
