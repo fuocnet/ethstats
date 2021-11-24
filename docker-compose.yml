@@ -1,8 +1,8 @@
 version: "3"
 services:
   fuocstats:
-    image: fuocspace/fuocstats
-    container_name: fuocstats
+    image: fuocnetwork/ethstats
+    container_name: ethstats
     environment:
       - PORT=3000
       - WS_SECRET=secret
